@@ -87,6 +87,7 @@
 
 			for ( var i = 0, l = keys.length; i < l; i++ ) {
 				if ( possible[ keys[i] ] ) {
+					//最终匹配成功到了
 					return origHandler.apply( this, arguments );
 				}
 			}
